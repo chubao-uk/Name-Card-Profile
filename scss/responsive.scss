@@ -1,0 +1,128 @@
+@media screen and (max-width: 1194px) {
+
+  #card-holder {
+    &.destruct {
+      width: 80%;
+      height: 80%;
+      .card {
+
+        width: calc(100% / 2 - 20px);
+      }
+    }
+
+  }
+
+}
+@media screen and (max-width: 834px) {
+
+  #card-holder {
+    &.destruct {
+      overflow-y: scroll;
+      width: 80%;
+      height: 80%;
+      .card {
+
+        width: calc(100% - 20px);
+      }
+    }
+
+  }
+  #card-holder {
+
+    #message {
+      border-radius: 20px;
+      right: -150px;
+      top: -150px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  #global-container {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #message {
+    display: none;
+  }
+  #card-holder {
+
+    width: 100%;
+
+    height: 90vh;
+
+    .card {
+      width: 100%;
+      transition: ease-in-out 0.2s;
+
+      .content {
+        margin-top: 80px;
+
+        p {
+          font-size: 16px;
+        }
+
+        ul {
+          li {
+            font-size: 16px;
+          }
+        }
+
+        .dialog {
+          margin-top: 20px;
+        }
+      }
+
+      &:nth-child(1) {
+
+        transform: unset;
+      }
+
+      &:nth-child(2) {
+
+        transform: unset;
+        top: 80px;
+
+      }
+
+      &:nth-child(3) {
+
+        transform: unset;
+        top: 160px;
+
+      }
+
+      &:nth-child(4) {
+
+        transform: unset;
+        top: 240px;
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  #card-holder {
+    .card {
+      height: 240px;
+
+      .content {
+        margin-top: 80px;
+
+        p {
+          font-size: 16px;
+        }
+
+        ul {
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
