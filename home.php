@@ -6,7 +6,7 @@ include("header.php");
         <div class="introduction">
             <div class="paragraph">New Style Coming</div>
             <p>For old version, please click <a href="/v1">here</a></p>
-
+            <p>Test</p>
         </div>
 
     </div>
