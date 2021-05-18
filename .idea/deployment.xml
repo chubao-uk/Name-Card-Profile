@@ -12,6 +12,8 @@
             <excludedPath path="/tbc" />
             <excludedPath local="true" path="$PROJECT_DIR$/doucos" />
             <excludedPath local="true" path="$PROJECT_DIR$/tbc" />
+            <excludedPath local="true" path="$PROJECT_DIR$/past" />
+            <excludedPath path="/past" />
           </excludedPaths>
         </serverdata>
       </paths>
