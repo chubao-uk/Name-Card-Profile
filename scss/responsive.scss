@@ -1,3 +1,14 @@
+@media screen and (max-width: 1440px) {
+
+  #card-holder {
+    &.destruct {
+      width: 80%;
+      height: 100%;
+    }
+
+  }
+
+}
 @media screen and (max-width: 1194px) {
 
   #card-holder {
