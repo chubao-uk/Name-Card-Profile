@@ -106,7 +106,7 @@ h2 {
   transform: rotate(0deg);
 }
 #card-holder .card {
-  background: url("/assets/img/leather-2.jpg");
+  background: url("/assets/img/paperboard.jpeg");
   background-size: cover;
   width: 500px;
   height: 320px;
@@ -114,15 +114,15 @@ h2 {
   position: absolute;
   left: 0;
   top: 0;
-  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.59);
-  -webkit-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.59);
-  -moz-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.59);
   cursor: pointer;
   transition: ease-in-out 0.5s;
   transform-origin: 480px 40px;
 }
 #card-holder .card:nth-child(1) {
   z-index: 4;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
 }
 #card-holder .card:nth-child(1) .content {
   margin: 20px;
@@ -151,13 +151,13 @@ h2 {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: linear-gradient(#FFDF00, #C5B358);
+  background: linear-gradient(#efd624, #d2c78f);
   position: absolute;
   top: 20px;
   right: 20px;
-  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.59);
-  -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.59);
-  -moz-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.59);
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.5);
 }
 #card-holder .card .content {
   margin: 20px;
@@ -195,6 +195,12 @@ h2 {
   opacity: 0;
   animation: 6s showMessage;
   animation-fill-mode: forwards;
+}
+
+.expand .card {
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 @keyframes showMessage {
